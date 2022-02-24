@@ -25,7 +25,7 @@ export const popo = [
 export const vutify = [
   {
     id: 4,
-    title: "veistu ekki hvað þú átt að gera?",
+    title: "Veistu ekki hvað þú átt að gera?",
     img: "assets/vutify2.png",
     link: "https://github.com/ArnarIms/IamBored"
   },
