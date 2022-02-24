@@ -1,0 +1,20 @@
+@import "../global.scss";
+
+.list{
+  font-size: 25px;
+  margin-right: 50px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 1s ease;
+  color: grey;
+
+  @include mobile {
+    margin-right: 10px;
+  }
+
+  &.active{
+    background-color: #61892F;
+    color: white;
+  }
+}
