@@ -121,6 +121,9 @@ h1{
               font-weight: 600;
               text-decoration: underline;
               color: white;
+              @include mobile{
+                font-size: 15px;
+              }
             }
           }
 
@@ -136,6 +139,9 @@ h1{
             img{
              width: 300px;
              border-radius: 80px; 
+             @include mobile{
+              width: 150px;
+            }
             }
          
         }
