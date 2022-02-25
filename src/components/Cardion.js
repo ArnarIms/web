@@ -7,19 +7,19 @@ function Cardion({ cardionOpen, setCardionOpen }) {
     <div className={"cardionMenu " + (cardionOpen && "active")}>
       <ul>
         <li>
-          <a href="#about" onClick={() => setCardionOpen(false)}>About</a>
+          <a href="#about" onClick={() => setCardionOpen(false)}>Um mig</a>
         </li>
         <li>
-          <a href="#studies" onClick={() => setCardionOpen(false)}>Studies</a>
+          <a href="#studies" onClick={() => setCardionOpen(false)}>Námsferill</a>
         </li>
         <li>
-          <a href="#resume" onClick={() => setCardionOpen(false)}>Resume</a>
+          <a href="#resume" onClick={() => setCardionOpen(false)}>Ferilskrá</a>
         </li>
         <li>
-          <a href="#projects" onClick={() => setCardionOpen(false)}>Projects</a>
+          <a href="#projects" onClick={() => setCardionOpen(false)}>Verkefni</a>
         </li>
         <li>
-          <a href="#contact" onClick={() => setCardionOpen(false)}>Contact</a>
+          <a href="#contact" onClick={() => setCardionOpen(false)}>Hafa samband</a>
         </li>
       </ul>
     </div>
