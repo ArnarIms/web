@@ -31,11 +31,11 @@ function Contact() {
         <img src="assets/email.jpg" alt="" />
       </div>
       <div className="right">
-        <h2>Contact</h2>
+        <h2>Hafa samband</h2>
         <form ref={form} onSubmit={sendEmail}>
           <input type="email" name="from_name" placeholder="Email" />
-          <textarea name="message" placeholder="Message"></textarea>
-          <button type="submit" value="Send">Send</button>
+          <textarea name="message" placeholder="Skilaboð"></textarea>
+          <button type="submit" value="Send">Senda</button>
           {message && <span> Ég mun hafa samband um leið og tækifæri gefst</span>}
         </form>
       </div>
