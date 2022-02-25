@@ -72,8 +72,8 @@ ul{
       object-fit: cover;
       z-index: 1;
       @include mobile{
-        width: 50%;
-        height: 50%;
+        width: 20px;
+        height: 20px;
         
       }
     }

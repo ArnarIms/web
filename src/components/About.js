@@ -17,7 +17,7 @@ function About() {
       <div className="right-1">
         <div className="container-1">
           <h2>Ég heiti </h2>
-          <h1>Arnar Imslan</h1>
+          <h1>Arnar Imsland</h1>
           <h3>Ég er <span ref={textRef}></span></h3>
         </div>
       </div>
