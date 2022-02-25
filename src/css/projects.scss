@@ -71,6 +71,10 @@ ul{
       height: 100%;
       object-fit: cover;
       z-index: 1;
+      @include mobile{
+        height: 254px;
+      width: 155px;
+      }
     }
     &:hover{
       img{
